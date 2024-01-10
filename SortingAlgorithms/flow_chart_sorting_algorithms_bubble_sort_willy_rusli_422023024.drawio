@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="wcsqu8szAZBDwvhg8PGy" name="Page-1">
+        <mxGraphModel dx="889" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;fillColor=#eeeeee;strokeColor=#36393d;labelBackgroundColor=#f6f0ff;labelBorderColor=default;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#FFFFFF;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="320" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="int[]angka={6, 4, 5, 3, 2, 1}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e3c800;fontColor=#FFFFFF;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="120" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#f5f2f8;" parent="1" source="9" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="for int i=0&lt;br&gt;i&amp;lt;angka" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="210" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#faf7fd;" parent="1" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="for int i=0&lt;br&gt;i&amp;lt;angka;&lt;br&gt;i+1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontColor=#FFFFFF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#f2eef6;" parent="1" source="13" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;fillColor=none;labelBackgroundColor=#f2edf7;" parent="1" source="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="590" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="angka{i}&amp;gt;angka{i+1}" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#FFFFFF;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="420" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#fcfaff;" parent="1" source="15" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="int tampung=angka[i]&lt;br&gt;angka[i]=angka[i+1]&lt;br&gt;angka[i+1]=tampung" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#FFFFFF;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;fillColor=none;labelBackgroundColor=#FFFFFF;" parent="1" source="17" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="for int i=0&lt;br&gt;i&amp;lt;6" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#FFFFFF;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="590" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#faf7fd;" parent="1" source="19" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="print angka[i]" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#FFFFFF;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="590" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#FFFFFF;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="670" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Tidak" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="410" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;fillColor=none;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="415" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
